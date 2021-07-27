@@ -93,3 +93,20 @@ function timeColor() {
     seventeen.addClass("future");
   }
 }
+
+function time1() {
+    var input = document.querySelector("#text1");
+    var output = document.querySelector("#text1");
+    var saveBtn = document.querySelector("#btn1");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
