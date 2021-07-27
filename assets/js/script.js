@@ -14,3 +14,17 @@ window.onload = function(){
    
 var currentDayTime = moment().format("dddd LL LT");
 $("#currentDayTime").append(currentDayTime);
+
+
+var nine = $("#text1")
+var ten = $("#text2")
+var eleven = $("#text3")
+var twelve = $("#text4")
+var thirteen = $("#text5")
+var fourteen = $("#text6")
+var fifteen = $("#text7")
+var sixteen = $("#text8")
+var seventeen = $("#text9")
+
+
+
