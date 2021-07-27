@@ -29,6 +29,7 @@ html {
   resize: none;
   border-left: 1px solid #1f1f1f;
   font-size: 22px;
+  text-align: center;
 }
 .time-block {
   text-align: center;
@@ -56,6 +57,11 @@ html {
   background-color: #364652;
   color: #fff;
   padding: 20px 40px;
+  transition: 1s;
+}
+
+.saveBtn:hover {
+  background: transparent;
 }
 footer {
   text-align: center;
