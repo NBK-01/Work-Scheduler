@@ -10,4 +10,7 @@ window.onload = function(){
     time8();
     time9();
    }
+ 
    
+var currentDayTime = moment().format("dddd LL LT");
+$("#currentDayTime").append(currentDayTime);
