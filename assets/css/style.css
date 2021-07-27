@@ -18,6 +18,7 @@ html {
   border-radius: 0px;
   color: white;
 }
+
 .description,
 .row {
   white-space: pre-wrap;
@@ -57,7 +58,7 @@ html {
   background-color: #364652;
   color: #fff;
   padding: 20px 40px;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .saveBtn:hover {
