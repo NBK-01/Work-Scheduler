@@ -43,13 +43,16 @@ html {
   color: white;
 }
 .past {
-  background-color: white;
+  background-color: grey;
+  color: black;
 }
 .present {
   background-color: red;
+  color: black;
 }
 .future {
   background-color: green;
+  color: white;
 }
 .saveBtn {
   border-left: 1px solid #1f1f1f;
