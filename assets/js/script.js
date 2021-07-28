@@ -134,11 +134,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content3");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("11AM");
+    input.value = localStorage.getItem("11AM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("11AM", input.value);
   
       output.textContent = input.value;
     }
@@ -150,11 +150,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("12PM");
+    input.value = localStorage.getItem("12PM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("12PM", input.value);
   
       output.textContent = input.value;
     }
@@ -166,11 +166,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("1PM");
+    input.value = localStorage.getItem("1PM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("1PM", input.value);
   
       output.textContent = input.value;
     }
@@ -183,11 +183,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("2PM");
+    input.value = localStorage.getItem("2PM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("2PM", input.value);
   
       output.textContent = input.value;
     }
@@ -199,11 +199,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("3PM");
+    input.value = localStorage.getItem("3PM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("3PM", input.value);
   
       output.textContent = input.value;
     }
@@ -215,11 +215,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("4PM");
+    input.value = localStorage.getItem("4PM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("4PM", input.value);
   
       output.textContent = input.value;
     }
@@ -231,11 +231,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("5PM");
+    input.value = localStorage.getItem("5PM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("5PM", input.value);
   
       output.textContent = input.value;
     }
