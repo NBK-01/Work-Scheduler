@@ -21,5 +21,5 @@
 ![local-storage-scrn](https://user-images.githubusercontent.com/73779089/127254024-4549e384-b364-42e0-b893-137214f0f5f4.PNG)
 
 
-#Link to deployed github pages
-## https://nbk-01.github.io/Work-Scheduler/
+# Link to deployed github pages
+### https://nbk-01.github.io/Work-Scheduler/
