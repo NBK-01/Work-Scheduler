@@ -101,11 +101,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("9AM");
+    input.value = localStorage.getItem("9AM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("9AM", input.value);
   
       output.textContent = input.value;
     }
@@ -118,11 +118,11 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
-    input.value = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("10AM");
+    input.value = localStorage.getItem("10AM");
   
     function displayText() {
-      localStorage.setItem("content", input.value);
+      localStorage.setItem("10AM", input.value);
   
       output.textContent = input.value;
     }
@@ -134,7 +134,7 @@ function time1() {
   
     saveBtn.addEventListener("click", displayText);
   
-    output.textContent = localStorage.getItem("content");
+    output.textContent = localStorage.getItem("content3");
     input.value = localStorage.getItem("content");
   
     function displayText() {
@@ -163,6 +163,71 @@ function time1() {
     var input = document.querySelector("#text5");
     var output = document.querySelector("#text5");
     var saveBtn = document.querySelector("#btn5");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
+
+  function time6() {
+    var input = document.querySelector("#text6");
+    var output = document.querySelector("#text6");
+    var saveBtn = document.querySelector("#btn6");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
+  function time7() {
+    var input = document.querySelector("#text7");
+    var output = document.querySelector("#text7");
+    var saveBtn = document.querySelector("#btn7");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
+  function time8() {
+    var input = document.querySelector("#text8");
+    var output = document.querySelector("#text8");
+    var saveBtn = document.querySelector("#btn8");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
+  function time9() {
+    var input = document.querySelector("#text9");
+    var output = document.querySelector("#text9");
+    var saveBtn = document.querySelector("#btn9");
   
     saveBtn.addEventListener("click", displayText);
   
