@@ -240,3 +240,4 @@ function time1() {
       output.textContent = input.value;
     }
   }
+  //final version 
