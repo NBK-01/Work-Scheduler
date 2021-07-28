@@ -110,3 +110,68 @@ function time1() {
       output.textContent = input.value;
     }
   }
+
+  function time2() {
+    var input = document.querySelector("#text2");
+    var output = document.querySelector("#text2");
+    var saveBtn = document.querySelector("#btn2");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
+  function time3() {
+    var input = document.querySelector("#text3");
+    var output = document.querySelector("#text3");
+    var saveBtn = document.querySelector("#btn3");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
+  function time4() {
+    var input = document.querySelector("#text4");
+    var output = document.querySelector("#text4");
+    var saveBtn = document.querySelector("#btn4");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
+  function time5() {
+    var input = document.querySelector("#text5");
+    var output = document.querySelector("#text5");
+    var saveBtn = document.querySelector("#btn5");
+  
+    saveBtn.addEventListener("click", displayText);
+  
+    output.textContent = localStorage.getItem("content");
+    input.value = localStorage.getItem("content");
+  
+    function displayText() {
+      localStorage.setItem("content", input.value);
+  
+      output.textContent = input.value;
+    }
+  }
